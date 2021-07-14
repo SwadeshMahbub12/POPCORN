@@ -1,0 +1,21 @@
+.header {
+  width: 20%;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: right;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3vw;
+  padding-bottom: 15px;
+  color: white;
+  z-index: 100;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 5vw;
+  }
+}
