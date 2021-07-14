@@ -21,8 +21,8 @@ const Series = () => {
 
 
     useEffect(() => {
-        fetchMovies();
-        }
+        fetchMovies();    
+    }// eslint-disable-next-line
     ,[page, genreforURL]);
     return (
         <div>

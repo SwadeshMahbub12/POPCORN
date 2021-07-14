@@ -18,10 +18,12 @@ const Trending = () => {
 
     useEffect(() => {
         fetchTrending();
+        // eslint-disable-next-line
     }, [page]);
 
     useEffect(() => {
          fetchTrending();
+         // eslint-disable-next-line
     }, []);
     return (
         <div className="trending">

@@ -41,6 +41,7 @@ useEffect(()=> {
     return () => {
       setGenres({});
     };
+    // eslint-disable-next-line
 },[]);
 
     return (
